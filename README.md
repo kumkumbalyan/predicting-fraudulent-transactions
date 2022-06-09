@@ -1,12 +1,12 @@
 # Predicting-Fraudulent-Transactions
-# Context
+## Context
 Develop a model for predicting fraudulent transactions for a financial company and use insights from the model to develop an actionable plan. Data for the case is available in CSV format having 6362620 rows and 10 columns.
 
-# Content
+## Content
 Data for detection of fraudulent transactions is available in CSV format having 6362620 rows and 10 columns.
 Dataset download link: https://bit.ly/3KdXtMZ
 
-# Data Dictionary
+## Data Dictionary
 step - maps a unit of time in the real world. In this case 1 step is 1 hour of time. Total steps 744 (30 days simulation).
 
 type - CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER.
@@ -29,7 +29,7 @@ isFraud - This is the transactions made by the fraudulent agents inside the simu
 
 isFlaggedFraud - The business model aims to control massive transfers from one account to another and flags illegal attempts. An illegal attempt in this dataset is an attempt to transfer more than 200.000 in a single transaction.
 
-# Inspiration
+##Inspiration
 Following tasks & questions can be answered using the data,
 
 * Data cleaning including missing values, outliers and multi-collinearity.
